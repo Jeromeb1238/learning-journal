@@ -1,3 +1,3 @@
-What I learned about Markdown
+- What I learned about Markdown
 
 
