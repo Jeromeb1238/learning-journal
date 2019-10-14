@@ -7,4 +7,4 @@ Today we will learn
 
 Definition of Growth Mindset
 
-> Growth mindset is a positive proactive perspective to learn and grow.
+growth mindset can open pathways to more creativity and possibility, and enable the setting of higher goals and more achievement.
