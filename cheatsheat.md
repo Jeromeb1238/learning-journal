@@ -1,6 +1,6 @@
 My Cheat Sheet
 
-#Text editor
+**Text editor**
 
 What features should you look for in a text editor? I would say some
 of the most important features are: 1.) code completion; 2.) syntax
@@ -10,14 +10,14 @@ extensions available when you need them. You might find some other
 features that are must-have’s, but I think these features are a good
 start.
 
-#Differece between text editor and IDE
+**Differece between text editor and IDE**
 
 An IDE (Integrated Development Environment) is really a suite of
 different software all coming together. An IDE is a text editor, a file
 manager, a compiler, and a debugger all in one software package.
 
 
-###**Command Terminal**
+# **Command Terminal**
 
 A command line, or terminal, is a text based interface to the system.
 command line has a shell
