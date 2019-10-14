@@ -30,18 +30,23 @@ manager, a compiler, and a debugger all in one software package.
 
 
 Ok, the first thing we need to appreciate with linux is that under the hood, everything is actually a file. A text file is a file, a directory is a file, your keyboard is a file (one that the system reads from only), your monitor is a file (one that the system writes to only) etc.
-absolute vs relative paths
-~ (tilde) - This is a shortcut for your home directory. eg, if your home directory is /home/ryan then you could refer to the directory Documents with the path /home/ryan/Documents or ~/Documents
-. (dot) - This is a reference to your current directory. eg in the example above we referred to Documents on line 4 with a relative path. It could also be written as ./Documents (Normally this extra bit is not required but in later sections we will see where it comes in handy).
-.. (dotdot)- This is a reference to the parent directory. You can use this several times in a path to keep going up the hierarchy. eg if you were in the path /home/ryan you could run the command ls ../../ and this would do a listing of the root directory.
+
+## **Paths**
+
+- Paths can be absolute vs relative paths
+- ~ (tilde) - This is a shortcut for your home directory. eg, if your home directory is /home/ryan then you could refer to the directory Documents with the path /home/ryan/Documents or ~/Documents
+- . (dot) - This is a reference to your current directory. eg in the example above we referred to Documents on line 4 with a relative path. It could also be written as ./Documents (Normally this extra bit is not required but in later sections we will see where it comes in handy).
+- .. (dotdot)- This is a reference to the parent directory. You can use this several times in a path to keep going up the hierarchy. eg if you were in the path /home/ryan you could run the command ls ../../ and this would do a listing of the root directory.
 
 - echo command tells you what command terminal shell in
 - ls - list [options] [location]
 - ( -l ) which indicates we are going to do a long listing. A long listing has the following:
 
-Example of 'ls' command:
-1. -rwxr-xr-x 18 root root 78 Feb 17 09:12 aliases
-1. drwxr-xr-x  2 ryan users 4096 May 05 17:25 alsa.d
+## **Example of 'ls' command**
+-rwxr-xr-x 18 root root 78 Feb 17 09:12 aliases
+
+drwxr-xr-x  2 ryan users 4096 May 05 17:25 alsa.d
+
 - First characterof return indicates whether it is a normal file ( - ) or directory ( d )
 - Next 9 characters are permissions for the file or directory (we'll learn more about them in section 6).
 - The next field is the number of blocks (don't worry too much about this).
