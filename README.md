@@ -6,6 +6,7 @@ Hello, my name is Jerome and I'm a new student at Codefellows.
 - [Markdown](markdown.md)
 - [Growth Mindset](growth-mindset.md)
 - [Cheatsheat](cheatsheat1.md)
+- [Git-GitHub](git-github.md)
 
 
 
