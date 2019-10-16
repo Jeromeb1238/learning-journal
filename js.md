@@ -11,4 +11,9 @@ Javascript is a scripting language written in plain text.  The extension '.js' i
 - Comments go inbetween /*  comments go here */
 - Variables are a means to temporarily store a value.  Variable needs to be *'declared'* and a variable needs to *'assign a value'*
     - syntax: var varName;  This example declares varName; note the statement ends with semi-colon
-    - syntax: var varName = "John"; This example *declares* a variable called 'varName' and *assigns* a value of 'John'. 
+    - syntax: var varName = "John"; This example *declares* a variable called 'varName' and *assigns* a value of 'John'.
+- Variables can have 3 data types:
+    - Numeric
+    - String data: all content enclosed by single or double quotes
+    - Boolean; logic evaluats to true/false
+
