@@ -8,6 +8,7 @@ Hello, my name is Jerome and I'm a new student at Codefellows.
 - [Cheatsheet](cheatsheet.md)
 - [Git-GitHub](git-github.md)
 - [HTML](html.md)
+- [CSS Stles](css.md)
 
 
 

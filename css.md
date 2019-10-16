@@ -10,6 +10,6 @@ CSS can use *external* CSS via link and file and *internal* inset with the web p
 ## Color
 - foreground color and background color
 - color terminology
-- - rgb(xxx,xxx,xxx) stands for red,green,blue
-- - Hex codes represent values for red, green, and blue in hexadecimal code
-- - Color names, predefined, limited selection
+ - rgb(xxx,xxx,xxx) stands for red,green,blue
+  - Hex codes represent values for red, green, and blue in hexadecimal code
+   - Color names, predefined, limited selection
