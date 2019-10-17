@@ -12,6 +12,7 @@ Hello, my name is Jerome and I'm a new student at Codefellows.
 - [Javascript Notes](js.md)
 - [How Computers Work](computers.md)
 - [JS Functions](js-functions.md)
+- [JS Functions](loops.md)
 
 
 
