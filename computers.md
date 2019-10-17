@@ -1,4 +1,4 @@
-#How Computers Work
+## How Computers Work
 
 Computers do four things: input, store, process, output.  Input has many sources, a couple of examples are keyboard and mouse.  Computers __store__ information as bits of information of 1 and 0.  This is a binary system.  Stored information is then processed through thousands of circuits that are a series of smaller circuits that break down the different tasks.  Finally the computer sends the information to an output, which can be a screen, audio, or some other electronic component.
 
