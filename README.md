@@ -10,6 +10,7 @@ Hello, my name is Jerome and I'm a new student at Codefellows.
 - [HTML](html.md)
 - [CSS Styles](css.md)
 - [Javascript Notes](js.md)
+- [How Computers Work](computers.md)
 
 
 

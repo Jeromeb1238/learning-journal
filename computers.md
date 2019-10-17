@@ -1,0 +1,7 @@
+#How Computers Work
+
+Computers do four things: input, store, process, output.  Input has many sources, a couple of examples are keyboard and mouse.  Computers __store__ information as bits of information of 1 and 0.  This is a binary system.  Stored information is then processed through thousands of circuits that are a series of smaller circuits that break down the different tasks.  Finally the computer sends the information to an output, which can be a screen, audio, or some other electronic component.
+
+All information is distilled down to ones and zeros.  This is why computers are are called a binary system.  These ones and zeros are combined together into 8, 16, 32, and now 64 bit processor chips.  The arrangement of these ones and zeros represent numbers, letters, arithmetic calculations, and other symbols that we understand as humans.
+
+The computer has hardward and software.  Hardware are the components that accept the input, store the data, process the information, and output the information.  A computer does this via Central Processing Unit and operating system software.  The CPU is the brains of the computer and is a series of circuits that calculates the ones and zeros.  The operating system software is a language that takes input from the user or sensor device and translates it into a language the computer understands of ones and zeros.
