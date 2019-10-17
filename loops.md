@@ -1,5 +1,5 @@
 ### Conditional Operators
--== is equal to
+- == is equal to
 - === is strictly equal to
 - != is not equal to
 - !== is strictly not equal to
