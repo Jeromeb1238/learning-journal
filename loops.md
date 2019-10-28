@@ -9,7 +9,7 @@
 - <= is less than or equal to
 
 ### Logical Operators
-- && is logical 'and' operator
+- `&&` is logical 'and' operator
 - || is logical 'or' operator
 - ! is logical 'not' operator
 
