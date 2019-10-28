@@ -16,5 +16,5 @@
 ### Loops
 - There are 'For' and 'While' loops
 - loops continue to evaluate an expression  for as long as the condition stays true
-- syntax: for ('state the condition(s)' ) { code block }
+- syntax: ```for ('state the condition(s)' ) { code block }```
 -Loops uses counters as a condition; typically used with arrays
