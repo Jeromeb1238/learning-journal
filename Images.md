@@ -12,3 +12,10 @@
     - Use correct resolution
 - Tools for editing and saving an image, and image dimension samples, pg 108-112
 - `<figure>` and `<figcaption>` pg 120
+
+## Chapter 11, Color
+
+- Understanding colors pg 253
+-`<color>`  changes font color, pg 249
+- `<background-color>` pg 250
+- 
