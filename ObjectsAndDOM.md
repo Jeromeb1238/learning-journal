@@ -10,10 +10,11 @@
     - Literal Notation:
      ```javascript
      var hotel = {
-        name: 'Quay,
+        name: 'Quay',
         rooms: 40,
         booked: 25,
         checkAvailability: function() {
           return this.rooms - this.booked;
           }
          };
+       - Note the this in `this.rooms` 'This' refers to this hotel because it is contained within the Object
