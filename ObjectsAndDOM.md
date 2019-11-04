@@ -48,6 +48,8 @@ this.booked = booked;
 this.checkAvailability = function () {
 return this.rooms - this.booked;
 };
+
+Note: again this is referencing \this Object's name and capitalized first letter of Object Name
 ```
     
    
