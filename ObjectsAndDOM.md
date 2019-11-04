@@ -28,12 +28,22 @@ var hotel = new Object();
 Note two items: first this method uses `new` and `Object`  `new` is a js keyword and `Object();`
 the constructor function.  Also not capitalized 'O' in Object, used to denote Constructor Notation
 ```
-- To add items to a new Object use the Object name and assign a Key and Value:
+- To **add** or change **value** of items to a new Object use the Object name and assign a Key and Value:
 ```javascript
 hotel.name = 'Quay';
 hotel.rooms = 40;
 hotel.booked = 25;
 hotel.checkAvaiolability = function() {
+return this.rooms - this.booked;
+};
+```
+- Creating **many** Objects using Constructor Notation:
+```javascript
+function Hotel(name, rooms, booked) {
+this.name = name;
+this.rooms = rooms;
+this.booked = booked;
+this.checkAvailability = function () {
 return this.rooms - this.booked;
 };
 ```
