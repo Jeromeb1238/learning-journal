@@ -6,8 +6,9 @@
     - The Key is the name of a property and method
     - The Value of a Property can be a string, Boolean, array, or another object
     - The Value of a Method is always a function
-- Ways to create Objects
-    - Literal Notation:
+
+Ways to create Objects
+- Literal Notation:
 ```javascript
 var hotel = {
 name: 'Quay',
@@ -24,7 +25,17 @@ checkAvailability: function() {
 ```javascript
 var hotel = new Object();
 
-Note two items: first this method uses `new` and `Object`  `new` is a js keyword and `Object();` the constructor function.
+Note two items: first this method uses `new` and `Object`  `new` is a js keyword and `Object();`
+the constructor function.  Also not capitalized 'O' in Object, used to denote Constructor Notation
+```
+- To add items to a new Object use the Object name and assign a Key and Value:
+```javascript
+hotel.name = 'Quay';
+hotel.rooms = 40;
+hotel.booked = 25;
+hotel.checkAvaiolability = function() {
+return this.rooms - this.booked;
+};
 ```
     
    
