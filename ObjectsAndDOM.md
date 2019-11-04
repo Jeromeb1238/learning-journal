@@ -51,5 +51,8 @@ return this.rooms - this.booked;
 
 Note: again this is referencing \this Object's name and capitalized first letter of Object Name
 ```
-    
+- You create an **Instance** of an Object Construction by using the keyword 'new' followed by the Object name.  For ex.
+```javascript
+var quayHotel = new Hotel('Quay', 40, 25);
+```
    
