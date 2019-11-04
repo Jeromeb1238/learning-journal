@@ -18,3 +18,6 @@
           }
          };
        - Note the this in `this.rooms` 'This' refers to this hotel because it is contained within the Object
+       ```
+   - Accessing an Object `var hotelName = hotel.name;` or `var roomsFree = hotel.checkavailability();`
+   
