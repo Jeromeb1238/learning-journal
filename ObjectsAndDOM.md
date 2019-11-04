@@ -8,11 +8,11 @@
     - The Value of a Method is always a function
 - Ways to create Objects
     - Literal Notation:
-     ```var hotel = {
+     `var hotel = {
         name: 'Quay,
         rooms: 40,
         booked: 25,
         checkAvailability: function() {
           return this.rooms - this.booked;
           }
-         };```
+         };`
