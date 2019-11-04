@@ -7,7 +7,7 @@
     - The Value of a Property can be a string, Boolean, array, or another object
     - The Value of a Method is always a function
 - Ways to create Objects
-- Literal Notation:
+    - Literal Notation:
 ```javascript
 var hotel = {
 name: 'Quay',
@@ -20,4 +20,11 @@ checkAvailability: function() {
 - Note the this in `this.rooms` 'This' refers to this hotel because it is contained within the Object
 ```
    - Accessing an Object `var hotelName = hotel.name;` or `var roomsFree = hotel.checkavailability();`
+   - Create an Object using Constructor Notation
+```javascript
+var hotel = new Object();
+
+Note two items: first this method uses `new` and `Object`  `new` is a js keyword and `Object();` the constructor function.
+```
+    
    
