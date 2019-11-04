@@ -14,6 +14,7 @@ Hello, my name is Jerome and I'm a new student at Codefellows.
 - [JS Functions](js-functions.md)
 - [Loops](loops.md)
 - [Professional Development](profDev.md)
+- [Object Constructor Notation](ObjectsAndDOM.md)
 
 
 
