@@ -36,6 +36,8 @@ hotel.booked = 25;
 hotel.checkAvaiolability = function() {
 return this.rooms - this.booked;
 };
+
+Note: again this refers to \this object, and capitalized first letter of Object name
 ```
 - Creating **many** Objects using Constructor Notation:
 ```javascript
