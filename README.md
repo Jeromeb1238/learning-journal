@@ -15,7 +15,7 @@ Hello, my name is Jerome and I'm a new student at Codefellows.
 - [Loops](loops.md)
 - [Professional Development](profDev.md)
 - [Object Constructor Notation](ObjectsAndDOM.md)
-- [Tables](table.md)
+- [Table](table.md)
 
 
 
