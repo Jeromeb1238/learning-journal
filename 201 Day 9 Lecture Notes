@@ -1,0 +1,28 @@
+##Day 9: Review of Salmon Code
+
+Recommended References:
+ - REf: Style Code
+ - Ref: Clean Code or Code Complete
+ - Ref: Head First Object-Oriented Design
+ - Ref: The Art of Agile Development
+ 
+ Names should be 8-20 characters, 10-16 ideal
+ Never use i or j in for loop white board interview
+ 
+ Make sure one calls functions and in what order 
+ 
+ Scope (in code); block of code in which a name is valid:
+ - global; available within entire file; minimize global variables
+ - local; available within function, inbetween {} 
+ 
+ Reviewing code: look for things that are the same over and over.  If arrays or variables will always change with new values, declare as 'empty' value
+ Code: write to solve today's needs now; don't build functionality that will never be used
+ 
+ Loops and more Loops
+ ```java
+ for(var i=0; i < 3; i++) {
+  for(var j = 3; j > 0; j--) {
+    console.log( i, j);
+  };
+}
+```
