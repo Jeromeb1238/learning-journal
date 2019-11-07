@@ -26,3 +26,28 @@ Recommended References:
   };
 }
 ```
+
+
+// Looping through arrays
+for(var i=0; i < 3; i++) {
+  for(var j = 3; j > 0; j--) {
+    console.log( i, j);
+  };
+}
+
+// Listing values of arrays in sequence
+for(var i = 0; i < 4; i++){
+  console.log(i);
+}
+for(var j = 3; j >= 0; j--){
+  console.log (j);
+}
+
+// Summing an Array
+var array = [1,2,3,4,5,6];
+var sum = 0;
+for(var i = 0; i < array.length; i++) {
+  sum += array[i];
+  console.log(sum);
+}
+  console.log(sum);
