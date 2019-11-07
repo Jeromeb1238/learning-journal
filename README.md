@@ -16,6 +16,7 @@ Hello, my name is Jerome and I'm a new student at Codefellows.
 - [Professional Development](profDev.md)
 - [Object Constructor Notation](ObjectsAndDOM.md)
 - [Table](table.md)
+- [Day 9 notes](201Day%209%20Lecture%20Notes)
 
 
 
