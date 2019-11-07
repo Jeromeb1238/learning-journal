@@ -19,7 +19,7 @@ Recommended References:
  Code: write to solve today's needs now; don't build functionality that will never be used
  
  Loops and more Loops
- ```javascript
+     ```javascript
  
  for(var i=0; i < 3; i++) {
   for(var j = 3; j > 0; j--) {
@@ -50,4 +50,4 @@ for(var i = 0; i < array.length; i++) {
   console.log(sum);
 }
   console.log(sum);
-```
+    ```
