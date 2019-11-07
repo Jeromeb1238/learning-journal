@@ -19,14 +19,13 @@ Recommended References:
  Code: write to solve today's needs now; don't build functionality that will never be used
  
  Loops and more Loops
- ```js
+ ```javascript
+ 
  for(var i=0; i < 3; i++) {
   for(var j = 3; j > 0; j--) {
     console.log( i, j);
   };
 }
-```
-
 
 // Looping through arrays
 for(var i=0; i < 3; i++) {
@@ -51,3 +50,4 @@ for(var i = 0; i < array.length; i++) {
   console.log(sum);
 }
   console.log(sum);
+```
