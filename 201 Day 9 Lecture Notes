@@ -1,5 +1,7 @@
 ##Day 9: Review of Salmon Code
 
+use css reset
+use lorem ipsum for blank text
 Recommended References:
  - REf: Style Code
  - Ref: Clean Code or Code Complete
@@ -11,6 +13,8 @@ Recommended References:
  
  Make sure one calls functions and in what order 
  
+ 
+ 
  Scope (in code); block of code in which a name is valid:
  - global; available within entire file; minimize global variables
  - local; available within function, inbetween {} 
@@ -20,36 +24,42 @@ Recommended References:
  
  Loops and more Loops
      ```javascript
- 
- for(var i=0; i < 3; i++) {
-  for(var j = 3; j > 0; j--) {
-    console.log( i, j);
-  };
-}
 
-// Looping through arrays
-for(var i=0; i < 3; i++) {
-  for(var j = 3; j > 0; j--) {
-    console.log( i, j);
-  };
-}
+   // Looping through arrays
+   for(var i=0; i < 3; i++) {
+     for(var j = 3; j > 0; j--) {
+       console.log( i, j);
+     };
+   }
 
-// Listing values of arrays in sequence
-for(var i = 0; i < 4; i++){
-  console.log(i);
-}
-for(var j = 3; j >= 0; j--){
-  console.log (j);
-}
+   // Listing values of arrays in sequence
+   for(var i = 0; i < 4; i++){
+     console.log(i);
+   }
+   for(var j = 3; j >= 0; j--){
+     console.log (j);
+   }
 
-// Summing an Array
-var array = [1,2,3,4,5,6];
-var sum = 0;
-for(var i = 0; i < array.length; i++) {
-  sum += array[i];
-  console.log(sum);
-}
-  console.log(sum);
+   // Summing an Array
+   var array = [1,2,3,4,5,6];
+   var sum = 0;
+   for(var i = 0; i < array.length; i++) {
+     sum += array[i];
+     console.log(sum);
+   }
+     console.log(sum);
+
+   var array = [0,-1,-5-9,4];
+   var biggest = array[0];
+
+   for(var i = 0; i <= array.length; i++) {
+     if(array[i] > biggest) {
+       biggest = array[i];
+       biggest = Math.abs(array[i]);
+     }
+   }
+console.log(biggest);
+
     ```
     
     keep track of something in a loop
