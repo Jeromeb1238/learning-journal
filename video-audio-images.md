@@ -14,7 +14,20 @@ img.medium { width: 250px; height: 250px;}
 img.small {width: 100px; height: 100px; }
 ```
 
+# Aligning Images
+- A more common way of aligning images is to specify a class and use the float property with margin for space between picture and text 
+```html
+<p><img src="image source" alt="image description' class="align-left">
+```
+```css
+img.align-left { float: left; margin-right: 10px; }
+```
 
+# Centering text
+- images are inline by default; thus they flow within the surrounding text
+- to center an image it should be turned into a **block level element**
+- once in a block level element, 2 ways to horizontally center an image:
+    - On containing element, use the `text-align: center;`
 
 
 
