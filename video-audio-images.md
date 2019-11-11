@@ -1,3 +1,24 @@
+## Ch 16 Images
+
+# Controling the Size of Images
+- Common way is to creat a class of images; small, medium, and large and use height/width to define:
+```html
+<img src="image location" class="large">
+```
+```css
+
+img.large { width: 500px; height: 500px;}
+
+img.medium { width: 250px; height: 250px;}
+
+img.small {width: 100px; height: 100px; }
+```
+
+
+
+
+
+
 ```javascript
 
 <video controls>
